@@ -1,8 +1,8 @@
 module.exports = {
   dialect: 'mysql',
-  database: 'sequelize',
+  database: 'sequelize-typescript',
   username: 'root',
-  password: '',
+  password: 'docker',
   host: 'localhost',
   define: {
     timestamps: true,
